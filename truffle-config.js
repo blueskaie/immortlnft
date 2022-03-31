@@ -41,7 +41,7 @@ module.exports = {
         network_id: '97',
         networkCheckTimeout: 10000,
         timeoutBlocks: 2000,
-        gasPrice: 8000000000, // 8 Gwei
+        gasPrice: 20000000000, // 20 Gwei
         confirmations: 1,
         skipDryRun: true
     },

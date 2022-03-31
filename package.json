@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --network binance_testnet --reset --compile-none",
+    "verify": "truffle run verify ImmortlNFT@0x16F4b15d96402E7D2b07a37b28B72FF3cab51643 --network binance_testnet"
   },
   "author": "",
   "license": "ISC",

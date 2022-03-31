@@ -7,5 +7,6 @@
 	"HECO_MAINNET_NODE": "",
 	"HECO_TEST_NODE": "",
 	"BSC_MAINNET_NODE": "",
-	"BSC_TEST_NODE": ""
+	"BSC_TEST_NODE": "",
+	"MUMBAI_TEST_NODE": ""
 }

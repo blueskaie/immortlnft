@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: MIT
-// Creators: Chiru Labs
+// Creators: Jerry Dev
 
 pragma solidity ^0.8.4;
 
 import './ERC721A.sol';
 
 contract ImmortlNFT is ERC721A {
-    constructor(string memory name_, string memory symbol_) ERC721A("One Immortl NFT", "IMRTLNFT") {}
+    constructor() ERC721A("One Immortl NFT", "IMRTLNFT") {}
 
     function numberMinted(address owner) public view returns (uint256) {
         return _numberMinted(owner);
